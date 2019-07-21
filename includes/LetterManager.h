@@ -1,6 +1,10 @@
  #ifndef __LETTERMANAGER_H_INCLUDED
  #define __LETTERMANAGER_H_INCLUDED
- 
+
+ #include <vector>
+ #include <string>
+ #include "Letter.h"
+
  using namespace std;
  
  class LetterManager
@@ -11,9 +15,9 @@
      public:
          LetterManager();
          ~LetterManager();
-         vector <Letter> LoadLettersFromFile();
-         string GetTextFromUser();
-         void PrintUserText();
+         void loadLettersFromFile();
+         string getTextFromUser();
+         void printUserText();
  };
  
  #endif

@@ -4,5 +4,5 @@ using namespace std;
 
         Letter:: Letter() {}
         Letter::  ~Letter() {}
-        Letter:: vector <string> GetLines() {}
+        void Letter:: getLines() {}
 
