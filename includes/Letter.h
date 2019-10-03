@@ -9,12 +9,18 @@ using namespace std;
 class Letter
 {
     private:
-        vector <string> Lines;
-
+        char character;
+        string line1, line2, line3, line4, line5;
+        
     public:
-        Letter();
+        Letter(char, string, string, string, string, string);
         ~Letter();
-        void getLines();
+        char getCharacter() const;
+        string getLine1() const;
+        string getLine2() const;
+        string getLine3() const;
+        string getLine4() const;
+        string getLine5() const;
 };
 
 #endif
